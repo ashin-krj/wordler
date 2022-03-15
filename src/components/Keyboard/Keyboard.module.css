@@ -1,0 +1,30 @@
+.wrapper {
+  margin: 0 0.5rem;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  gap: 0.25rem;
+  margin: 0 auto 0.5rem;
+  touch-action: manipulation;
+}
+
+.key {
+  font-weight: bold;
+  height: 58px;
+  border-radius: 4px;
+  cursor: pointer;
+  user-select: none;
+  background-color: gray;
+  color: black;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.longKey {
+  flex: 1.5;
+}
